@@ -15,6 +15,12 @@ h2 {
   font-size: medium;
   font-weight: 200;
 }
+
+.label:hover{
+  font-size: 45px;
+  color: #B02E0C;
+
+}
 /* END SETUP */
 
 /* Classes that you might find useful */
@@ -32,6 +38,8 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
+
 }
 
 .threehoriz {
@@ -58,6 +66,13 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
+#white{
+  background-color: white;
+}
+
+.red{
+  background-color: red;
+}
 
 .orange {
   background-color: orange;
@@ -75,7 +90,7 @@ h2 {
   background-color: blue;
 }
 
-.lightblue {
+.light-blue {
   background-color: lightblue;
 }
 
@@ -92,23 +107,30 @@ h2 {
 }
 
 /* BEGIN QUESTION 2 */
+.thailand-flag{
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
 
 .thailand-red {
-  /* TODO */
+ background-color: #B5002D;
+ height: 16%;
 }
 
 .thailand-white {
-  /* TODO */
+  background-color: white;
+  height: 16%;
 }
 
 .thailand-blue {
-  /* TODO */
+  background-color: #2E2A4C;
+  height: 36%
 }
-
 /* END QUESTION 2 */
 
 /* BEGIN QUESTION 3 */
-
 .romania-blue {
   background-color: #002c84;
 }
@@ -129,7 +151,9 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  align-self: center;
+  max-height: 150px;
+  
 }
 
 .mexico-red {
@@ -149,17 +173,18 @@ h2 {
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  margin: 10px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  margin: 10px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
+  padding: 60px
   /* TODO */
 }
